@@ -11,7 +11,7 @@ You can add the latest version of Adminer to your project by clicking the ```Imp
 
 ```yaml
 services:
-  - hostname: adminer
+  - hostname: adminerevo
     type: php-apache@8.3
     enableSubdomainAccess: true
     buildFromGit: https://github.com/krls2020/recipe-adminerevo
